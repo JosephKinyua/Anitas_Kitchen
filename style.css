@@ -1,0 +1,270 @@
+.wrap {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+.menu {
+    width: 50px;
+    height: 5px;
+    background: white;
+    margin: 6px 0;
+}
+
+.logo {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 30%;
+    margin-right: auto;
+}
+
+.background {
+    background-image: url("images/landing.jpg");
+    background-repeat: no-repeat;
+    padding: 80px;
+    margin-left: 60px;
+}
+
+#comment {
+    position: relative;
+    left: 25%;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+
+.one {
+    font-size: 20px;
+    width: 350px;
+    height: 100px;
+    background-color: rgb(230, 219, 219);
+    text-align: center;
+    margin-top: -20px;
+}
+
+.two {
+    font-size: 20px;
+    height: 100px;
+    width: 350px;
+    background-color: #F15A29;
+    text-align: center;
+    float: left;
+}
+
+.three {
+    background-image: url(images/breakfast.jpg);
+    width: 350px;
+    height: 200px;
+    color: white;
+}
+
+.four {
+    background-image: url(images/lunch.jpg);
+    width: 350px;
+    height: 200px;
+    color: white;
+    opacity: 0.5;
+}
+
+.five {
+    background-image: url(images/dinner.jpg);
+    width: 350px;
+    height: 200px;
+    color: white;
+}
+
+.meals {
+    display: flex;
+    margin-left: 60px;
+    text-align: center;
+    font-size: 30px;
+    margin-top: -25px;
+}
+
+.meals p {
+    position: relative;
+    top: 25px;
+}
+
+.photo {
+    width: auto;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-right: 40px;
+    margin-left: 14%;
+    margin-top: 5%;
+}
+
+.food2 {
+    margin-top: -4px;
+}
+
+.content {
+    width: 80%;
+    width: 60%;
+    margin-top: 5%;
+}
+
+.photo1 {
+    width: auto;
+    float: right;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-right: 30%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.content1 {
+    width: 20%;
+    text-align: right;
+    margin-top: 17%;
+    margin-left: 20%;
+    margin-bottom: 15%;
+}
+
+.side {
+    display: flex;
+    text-align: center;
+    float: left;
+    color: #F15A29;
+    font-size: 14px;
+    background-color: beige;
+    margin-top: 60px;
+    margin-left: 11%;
+    padding-top: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 1%;
+}
+
+.eight {
+    margin-right: 20px;
+}
+
+.nine {
+    margin-right: 20px;
+}
+
+.container {
+    background-image: url("images/foodsBg.jpg");
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    width: 100%;
+    padding-bottom: 100%;
+    margin-left: 60px;
+}
+
+.staff {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 10%;
+}
+
+
+}
+.team {
+    position: relative;
+}
+.about {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 1px solid;
+    border-width: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 55%;
+    margin-left: 15%;
+    text-align: center;
+    margin-top: -65%;
+}
+.memb {
+    width: 25%;
+    margin-top: 10px;
+}
+.pic {
+    width: 50%;
+}
+h4 {
+    color: #F15A29;
+}
+.eml {
+    width: 13%;
+    margin-left: 26%;
+    margin-top: 5%;
+    padding: 10px;
+    opacity: 0.3;
+    color: white;
+}
+.bttn {
+    width: 10%;
+    padding: 10px;
+    color: white;
+    background-color: #F15A29;
+    margin-top: 11%;
+}
+.sbr {
+    position: relative;
+    background-image: url("images/subscribe.jpg");
+    background-repeat: no-repeat;
+    padding-bottom: 100%;
+    margin-left: 60px;
+    margin-top: 3%;
+}
+.foter p {
+    color: white;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    left: 23%;
+    padding-top: 80px;
+}
+footer {
+    text-align: center;
+    padding: 100px;
+    background-color: #F15A29;
+    color: white;
+    width: 66%;
+    margin-left: 60px;
+    margin-top: -97%;
+}
+.end {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.nd {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.start p {
+    font-size: 20px;
+}
+.now p {
+    margin-bottom: -8%;
+}
+.less {
+    color: #F15A29;
+}
+.more {
+    color: #F15A29;
+    display: flex;
+    margin-top: 90px;
+}
+.view Button {
+    color: #F15A29;
+    background-color: white;
+    border: 1px solid #F15A29;
+}
